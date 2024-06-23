@@ -76,8 +76,7 @@ if user_picked == 'Image Captioning':
 
     user_prompt = """Describe the provided medical image
                     in such a manner as if you are an experienced medical professional with
-                    many years of experience. Also try to have a compassionate chat with the user
-                    as he/she might have contracted an illness described in the image."""
+                    many years of experience."""
 
     if st.button("Generate Caption"):
         load_image = Image.open(image)
